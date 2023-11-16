@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+html,
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 480px) and (max-width: 500px) {
+  body {
+    width: 100%;
+    background-color: #041d3d;
+  }
+  .container {
+    background-color: #041d3d;
+  }
+  .head {
+    position: relative;
+    overflow: hidden;
+  }
+  .head-title {
+    position: absolute;
+    margin-left: 9rem;
+    color: white;
+    font-size: 15px;
+    z-index: 2;
+  }
+
+  .head-profile {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    margin-left: 5%;
+    margin-top: 20rem;
+  }
+
+  .verified {
+    position: absolute;
+    width: 30%;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+  }
+
+  .profile-name {
+    position: absolute;
+    color: rgb(255, 196, 0);
+    margin-top: -4.7rem;
+    margin-left: 5rem;
+  }
+
+  .profile-developer {
+    position: absolute;
+    color: white;
+    margin-top: -2.8rem;
+    margin-left: 5rem;
+    font-size: small;
+  }
+
+  .profile-tag p {
+    color: wheat;
+    font-size: 10px;
+    width: 20%;
+    text-align: center;
+    border: 1px solid #f7f7f7;
+    border-radius: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 2px;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+  }
+
+  .head-profile img {
+    width: 20%;
+    border-radius: 100px;
+  }
+
+  .head-description {
+    color: white;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -5rem;
+  }
+
+  .head-description {
+    font-size: 10px;
+  }
+
+  .unit-rumah {
+    margin-left: 1rem;
+    color: white;
+  }
+
+  .unit-item {
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 1.2rem;
+  }
+  .unit-item img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .unit-item-inner {
+    position: absolute;
+    width: 90%;
+    bottom: 1rem;
+    left: 1rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    color: #041d3d;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .unit-item-inner h3 {
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+  }
+
+  .unit-price {
+    margin-top: -1rem;
+  }
+
+  .unit-price h3 {
+    font-weight: 900;
+    color: #ff8b04;
+  }
+
+  .spec img {
+    width: 95%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .footer-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 0.7rem;
+    margin-right: 1rem;
+    overflow: hidden;
+  }
+
+  .footer-wrapper {
+    display: block;
+    flex-wrap: wrap;
+    flex-grow: 2;
+  }
+  .footer-location {
+    width: 5%;
+    border: 0px solid #041d3d;
+    border-radius: 100%;
+    background-color: darkgoldenrod;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-top: 1.2rem;
+    margin-right: 10px;
+  }
+  .footer-contact {
+    text-align: center;
+    border: 1px solid #041d3d;
+    border-radius: 50px;
+    background-color: #ff8b04;
+    /* padding-left: .2rem;
+    padding-right: .2rem; */
+    padding-top: -5rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer-contact h3 {
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+}
